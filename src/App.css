@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* Apply a dark theme to the body */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Your chosen font', sans-serif;
+}
+
+/* Style the hero section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+/* Style the CTA button */
+.btn-cta {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 4px 14px 0 rgba(0,118,255,0.39);
+}
+
+/* Style the features list */
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.feature-item {
+  padding: 20px;
+}
+
+.feature-item h3 {
+  margin-top: 10px;
+}

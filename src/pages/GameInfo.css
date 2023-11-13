@@ -1,0 +1,13 @@
+/* Custom styles for GameInfo */
+.quotes-section {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    margin-top: 20px;
+}
+
+.blockquote {
+    font-style: italic;
+    color: #343a40; /* Dark text for quotes */
+}
+
+/* Additional styling as needed */
